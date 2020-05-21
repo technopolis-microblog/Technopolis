@@ -1,0 +1,3 @@
+[submodule "Technopolis-Fe"]
+	path = Technopolis-Fe
+	url = https://github.com/technopolis-microblog/Technopolis-Fe

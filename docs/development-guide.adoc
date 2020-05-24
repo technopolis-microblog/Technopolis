@@ -1,0 +1,7 @@
+= Development guide
+
+== Vagrant
+. `$ vagrant up`
+. `$ vagrant ssh`
+. `$ cd /vagrant`
+. `$ make watch`

@@ -11,4 +11,4 @@ CODENAME := RYZEEN
 
 .PHONY: watch
 watch:
-	drun watch --entryPoint=./app.ts --cwd=./ --runtimeOptions=--allow-net
+	drun watch --entryPoint=./src/main.ts --cwd=./ --runtimeOptions=--allow-net

@@ -1,4 +1,4 @@
-import {Technopolis} from './app.ts';
+import { Technopolis } from "./app.ts";
 
 const technopolis = new Technopolis();
 

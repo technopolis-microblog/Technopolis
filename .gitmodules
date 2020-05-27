@@ -4,3 +4,6 @@
 [submodule "Technopolis-Docs"]
 	path = Technopolis-Docs
 	url = https://github.com/technopolis-microblog/Technopolis-Docs
+[submodule "Technopolis-API"]
+	path = Technopolis-API
+	url = https://github.com/technopolis-microblog/Technopolis-API

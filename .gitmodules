@@ -1,3 +1,6 @@
 [submodule "Technopolis-Fe"]
 	path = Technopolis-Fe
 	url = https://github.com/technopolis-microblog/Technopolis-Fe
+[submodule "Technopolis-Docs"]
+	path = Technopolis-Docs
+	url = https://github.com/technopolis-microblog/Technopolis-Docs

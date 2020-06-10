@@ -18,7 +18,7 @@ AsciiDoc:: AsciiDoc boasts Markdown-like readability and more powerful expressiv
 
 Reversi:: Is this _**REALLY**_ necessary? Is there a reason why the preinstalled solitaire or pinball on Windows isn't good enough?
 Live stream:: This feature is only available in misskey.io, not in misskey.
-Chat:: (Maybe I'll implement it.)
+Chat:: (Maybe I'll implement it.) See https://github.com/technopolis-microblog/Technopolis/issues/11[this issue.]
 Static page:: Isn't github.io or Netlify enough?
 Misskey Flavored Markdown:: The letters rotate and jump... the marquee tag is obsolete, isn't it?
 Misskey Room:: Why was this implemented in Misskey?

@@ -1,10 +1,12 @@
 = Technopolis
 
-Technopolis aims to be a lightweight and elegant federated micro-bloging platform that implements only the features you need.
+Technopolis is a globally interconnected micro-blogging platform inspired by Misskey. 
 
-Basically, it will be developed as a Misskey clone, but we don't want to implement some of the features.
+It was developed to replace Misskey's cumbersome web API and make it more robust.
 
 == TO DO and NOT TO DO list
+
+We are going to implement all of Misskey's features, but we are not going to implement some unnecessary features.
 
 === TO DO
 
@@ -25,9 +27,40 @@ Misskey Room:: Why was this implemented in Misskey?
 
 == License
 
+Copyright (c) 2020 Technopolis Developers.
+
 licensed under the gnu affero general public license version 3(link:./license[license] or https://opensource.org/licenses/agpl-3.0)
 
-== Author
+== Open source software
 
-https://www.sc3.fun[銀猫さん] (link:mailto:silverscat_3@mail.sc3.fun[silverscat_3@mail.sc3.fun])
+This software includes several software. Details see below.
 
+=== yarn v2
+[source]
+----
+BSD 2-Clause License
+
+Copyright (c) 2016-present, Yarn Contributors.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+----

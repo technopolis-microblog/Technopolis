@@ -1,5 +1,7 @@
 = Technopolis
 
+image::./.content/technopolis-logotype.png[]
+
 Technopolis is a globally interconnected micro-blogging platform inspired by Misskey. 
 
 It was developed to replace Misskey's cumbersome web API and make it more robust.

@@ -6,7 +6,7 @@ sudo pacman -Su --noconfirm
 sudo pacman -S reflector
 sudo reflector --verbose --latest 5 --sort rate --save /etc/pacman.d/mirrorlist
 
-yes | sudo pacman -Syu
+sudo pacman -Syu --noconfirm
 sudo pacman -S --noconfirm \
   base-devel \
   unzip \
@@ -18,9 +18,9 @@ sudo pacman -S --noconfirm \
 mkdir deno
 cd ./deno
 curl -o PKGBUILD 'https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=deno'
-yes | makepkg -i
+makepkg -i --noconfirm
 
-deno install --allow-read --allow-run --unstable https://deno.land/x/drun@v1.1.0/drun.ts
+deno install --allow-read --allow-run --allow-net -f --unstable https://deno.land/x/denon@v2.2.1/denon.ts
 
 echo 'export PATH="/home/vagrant/.deno/bin:$PATH"' >> ~/.bashrc
 SCRIPT

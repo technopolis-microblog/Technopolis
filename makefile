@@ -1,6 +1,6 @@
 .PHONY: watch
 watch:
-	drun watch --entryPoint=./src/main.ts --cwd=./ --runtimeOptions=--allow-net
+	denon run ./src/main.ts
 
 .PHONY: fmt
 fmt:

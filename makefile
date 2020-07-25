@@ -1,6 +1,6 @@
 .PHONY: watch
 watch:
-	denon run ./src/main.ts
+	denon run --allow-net ./src/main.ts
 
 .PHONY: fmt
 fmt:
